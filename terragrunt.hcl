@@ -15,7 +15,7 @@ remote_state {
     if_exists = "overwrite_terragrunt"
   }
   config = {
-    bucket = "aws-bucket-tasks-adcash12"
+    bucket = "aws-bucket-tasks-adcash"
 
     key            = "${path_relative_to_include()}/terraform.tfstate"
     region         = "us-east-1"
